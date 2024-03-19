@@ -1,0 +1,112 @@
+:root {
+    --primary-color: #1a237e;
+    --secondary-color: #64b5f6;
+    --accent-color: #ff5722;
+    --text-color: #333;
+    --text-color-light: #777;
+    --background-color: #f5f5f5;
+  }
+  
+  body {
+    font-family: 'Bungee Inline', cursive;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .footer {
+    background-color: var(--primary-color);
+    padding: 4rem 0;
+  }
+  
+  .footer__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .footer__logo {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer__description {
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer__form {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .footer__input {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  .button {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--accent-color);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #ff7043;
+  }
+  
+  .footer__title {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .footer__links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer__link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer__link:hover {
+    color: var(--secondary-color);
+  }
+  
+  .footer__group {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .footer__social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer__social-link {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer__social-link:hover {
+    color: var(--secondary-color);
+  }
+  
+  .footer__copy {
+    color: #fff;
+    font-size: 0.875rem;
+  }
